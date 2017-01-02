@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: wanmin
  * Date: 17/1/2
- * Time: ÉÏÎç10:18
+ * Time: ï¿½ï¿½ï¿½ï¿½10:18
  */
 
 namespace simple;
@@ -54,15 +54,15 @@ class DatabaseConfigure
         return $this->port;
     }
 
-    /**
-     * @param mixed $port
-     * @return DatabaseConfigure
-     */
-    public function setPort($port)
-    {
-        $this->port = $port;
-        return $this;
-    }
+//    /**
+//     * @param mixed $port
+//     * @return DatabaseConfigure
+//     */
+//    public function setPort($port)
+//    {
+//        $this->port = $port;
+//        return $this;
+//    }
 
     /**
      * @return mixed
@@ -72,15 +72,15 @@ class DatabaseConfigure
         return $this->username;
     }
 
-    /**
-     * @param mixed $username
-     * @return DatabaseConfigure
-     */
-    public function setUsername($username)
-    {
-        $this->username = $username;
-        return $this;
-    }
+//    /**
+//     * @param mixed $username
+//     * @return DatabaseConfigure
+//     */
+//    public function setUsername($username)
+//    {
+//        $this->username = $username;
+//        return $this;
+//    }
 
     /**
      * @return mixed
@@ -90,15 +90,15 @@ class DatabaseConfigure
         return $this->password;
     }
 
-    /**
-     * @param mixed $password
-     * @return DatabaseConfigure
-     */
-    public function setPassword($password)
-    {
-        $this->password = $password;
-        return $this;
-    }
+//    /**
+//     * @param mixed $password
+//     * @return DatabaseConfigure
+//     */
+//    public function setPassword($password)
+//    {
+//        $this->password = $password;
+//        return $this;
+//    }
 
     /**
      * @return mixed
@@ -108,15 +108,15 @@ class DatabaseConfigure
         return $this->host;
     }
 
-    /**
-     * @param mixed $host
-     * @return DatabaseConfigure
-     */
-    public function setHost($host)
-    {
-        $this->host = $host;
-        return $this;
-    }
+//    /**
+//     * @param mixed $host
+//     * @return DatabaseConfigure
+//     */
+//    public function setHost($host)
+//    {
+//        $this->host = $host;
+//        return $this;
+//    }
 
 
 }

@@ -38,4 +38,16 @@
 
 ```
 
+## 简单完整的phpunit.xml
 
+
+```
+<phpunit bootstrap="simple/autoloader.php">
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./simple</directory>
+        </whitelist>
+    </filter>
+</phpunit>
+
+```

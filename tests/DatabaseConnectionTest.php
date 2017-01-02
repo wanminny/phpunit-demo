@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: wanmin
  * Date: 17/1/2
- * Time: ÉÏÎç10:52
+ * Time: ï¿½ï¿½ï¿½ï¿½10:52
  */
 
 namespace tests;
@@ -13,11 +13,14 @@ namespace tests;
 use simple\DatabaseConnection;
 use simple\DatabaseConfigure;
 
+
+// maybe æ–‡ä»¶åç§°xxxxxTest å‡½æ•°åç§°éœ€è¦testXXX();
+
 class DatabaseConnectionTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     *  µ¥Ôª²âÊÔ;
+     *  ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½;
      */
     public function testDi()
     {

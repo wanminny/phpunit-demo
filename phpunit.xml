@@ -4,4 +4,9 @@
             <directory suffix=".php">./simple</directory>
         </whitelist>
     </filter>
+    <testsuites>
+        <testsuite name="FunctionTest">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>

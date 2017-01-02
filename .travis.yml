@@ -10,4 +10,4 @@ install:
   - composer install --prefer-dist --no-interaction
 
 script:
-- vendor/bin/phpunit  -c phpunit.xml --coverage-text
+- vendor/bin/phpunit  -c phpunit.xml --coverage-html newcoverage

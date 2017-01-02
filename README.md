@@ -1,3 +1,11 @@
+
+
+
+##phpunit-demo
+#### add build status
+[![Build Status](https://travis-ci.org/wanminny/phpunit-demo.svg?branch=master)](https://github.com/wanminny/phpunit-demo)
+
+
 ##install phpunit for mac user
 
 ➜ wget https://phar.phpunit.de/phpunit.phar
